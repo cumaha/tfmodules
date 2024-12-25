@@ -1,8 +1,8 @@
 terraform {
   cloud {
-    organization = "mahatest"
+    organization = "tfmodule_test"
     workspaces {
-      name = "abcrepo"
+      name = "tfmodules"
 }
 }
 }
